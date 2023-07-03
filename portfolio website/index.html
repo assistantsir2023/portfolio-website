@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="custom.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Sofia+Sans+Condensed:wght@1&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Kiran's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi, My name is <span class="text-purple">Kiran</span>
+          <div>and I am a passionate</div>
+
+          <span id="element"></span>
+          <div class="buttons">
+            <button class="btn">Download Resume</button>
+            <button class="btn">Visit Github</button>
+          </div>
+        </div>
+        <div class="rightSection">
+          <img src="p.jpg" alt="" />
+        </div>
+      </section>
+      <hr />
+      <section class="SecondSection">
+        <span class="text-gray">What I hava done so far</span>
+        <h1>Work Experience</h1>
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="html.png" alt="" />
+            <div class="vertical-title">HTML Developer (2020-2020)</div>
+            <div class="vertical-desc">
+              I have good knowledge about html heading tag paragraph,pre tag.
+              and also about img,video,audio,form, ordered ,unordered and
+              semantic tags...
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="js.png" alt="" />
+            <div class="vertical-title">Javascript Developer(2020-2021)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
+              rerum culpa eum aspernatur rem nisi nostrum quo, aut cum debitis
+              voluptatum, corrupti ex.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-bottom" src="react.png.jpg" alt="" />
+            <div class="vertical-title">React js Developer (2021-2022)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit,
+              exercitationem eos! Quibusdam molestiae doloremque dolore numquam
+              expedita architecto, voluptatibus unde voluptatem libero animi.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-bottom" src="node.png" alt="" />
+            <div class="vertical-title">Node.js Developer(2021-2022)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa
+              ratione aut, obcaecati odio neque mollitia a sit eligendi esse
+              officia velit laboriosam? Nisi?
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-bottom" src="fs.png" alt="" />
+            <div class="vertical-title">Full-Stack developer(2022-2023)</div>
+            <div class="vertical-desc">
+              I have very good knowledge about all languages which used for full
+              stack web development which is HTML,CSS,JAVASCRIPT,NODE.JS,REACT.JS,EXPRESS.JS,
+              MONGODB AND ALSO
+              LINUX.
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <h3>Kiran's Developer Portfolio</h3>
+        </div>
+        <div class="footer-second">
+          <h3>My Projects</h3>
+          <ul>
+            <li>My Personal Portfolio</li>
+            <li>Weather App</li>
+            <li></li>
+          </ul>
+        </div>
+        <div class="footer-third">
+          <h3>Languages Known</h3>
+          <ul>
+            <li>English</li>
+            <li>Hindi</li>
+            <li>Marathi</li>
+          </ul>
+        </div>
+        <div class="footer-fourth">
+          <h3>Follow Me On</h3>
+          <img src="fb.png" alt="" />
+          <img src="in.png" alt="" />
+          <img src="tw.jpg" alt="" />
+          <img class="yt" src="yt.png" alt="" />
+        </div>
+      </div>
+      <div class="footer-rights">
+        Copyright&#169;Kiransportfolio.com | all rights reserved
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "web developer",
+          "&amp; Graphic designer.",
+          " &amp; video editor",
+          "&amp; web designer",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
